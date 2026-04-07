@@ -33,6 +33,7 @@ ax.set_xlabel("X")
 ax.set_ylabel("y")
 ax.set_title("Linear Regression Fit")
 ax.legend()
+ax.grid()
 
 # Layout
 col1, col2 = st.columns([3, 1])
